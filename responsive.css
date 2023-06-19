@@ -1,0 +1,73 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-image:url("mounatin.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.navbar{
+width: 100%;
+display:flex;
+justify-content: space-evenly;
+text-transform: uppercase;
+}
+.logo{
+    font-size:25px;
+    padding-top:20px;
+    margin-right: 350px;
+    margin-left:15px;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+ul{
+    list-style-type:none;
+}
+.links{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    padding-top:20px;
+}
+a:hover{
+    color:orange;
+}
+button{
+    display: flex;
+    margin-left:390px;
+    border-radius:20px;
+   padding:10px 20px;
+   margin-top:20px;
+   margin-right:20px;
+background-color: rgb(247, 59, 2);
+}
+button:hover{
+cursor:pointer;
+border-color:yellowgreen;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    padding-top:150px;
+    color:#313534;
+    font-weight:900;
+    font-size:25px;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    padding-top:15px;
+    color:#313534;
+    font-weight:500;
+}
+@media(min-width:300px)and(max-width:800px){
+    body{
+     width:fit-content;
+    }
+}
